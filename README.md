@@ -9,5 +9,6 @@ git branch {branch name}
 git checkout {branch name}
 - This command switches the current active branch to the new branch.
 
-
+git push -u origin {branch name}
+- This command will push the changes from local {branch name} to the remote repository. This will also create a remote branch with the same {branch name}
 
