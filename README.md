@@ -12,3 +12,7 @@ git checkout {branch name}
 git push -u origin {branch name}
 - This command will push the changes from local {branch name} to the remote repository. This will also create a remote branch with the same {branch name}
 
+## Merge strategies
+
+git merge {branch name}
+- This command will merge the contents of {branch name} to the current active branch.
